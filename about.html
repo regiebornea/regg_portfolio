@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Regg Bourne | Services</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <style>
+    #vid:hover{
+      transform: scale(1.1);
+      border-color: orange;
+    }
+    .text-blue{
+      font-family: Georgia, serif;
+      color: #00334d;
+    }
+    .services:hover{
+      background-color:#f4e1d2;
+    }
+    .slider-area .hero-cap .breadcrumb a{color:#ec5b53;font-size:18px;text-transform:capitalize}
+  </style>
+  <body onload="myFunction()" style="margin:0;">
+    <?php include 'preloader.php';?>
+    <div style="display:none;" id="myDiv" class="container-fluid animate-bottom">
+        <?php include 'header.php';?>
+            <div class="slider-area">
+            <div class="d-flex align-items-center" style="background-image:url(assets/photos/hero2.jpg);
+        min-height:390px;background-repeat:no-repeat;
+        background-size:cover">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap">
+                                <h2 class="text-left" style="font-size:70px;font-weight:900;text-transform:capitalize;
+    margin-bottom:15px">About me</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb" style="background:none;padding:0;margin:0">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">About me</a></li> 
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-me pb-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center p-5">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-me-img mb-30">
+                            <img src="assets/photos/myprofile.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="text-left">
+                            <h2 class="text-blue" style="font-size:48px;color:#000a2d;font-weight:600;margin-bottom:40px">Personal Information</h2> 
+                            <p>Fullname: Regie Lesondra Bornea</p>
+                            <p>Address: 95 V. Rama Ave., Cebu City 6000</p>
+                            <p>Education: Bachelor of Science in Information and Communications Technology</p>
+                            <p>School: Cebu Technological University - Main</p>
+                            <p>Phone #: 0966-5949728/0933-4298723</p>
+                            <p>Email: mightyregg@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Me End -->
+        <!-- About Area start -->
+        <br>
+        <section class="about-area section-paddingt30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h3 class="text-blue">I Create Affordable Solutions.</h3> 
+                            <p class="text-left text-blue">I am a budget-friendly web developer with over 2 years of experience. I started doing school projects for my fellow students since second year college. During our third year I lead the development of our thesis/capstone project. Later on I worked on several projects for students from different schools in the country. These help me enhance my programming skills and explore new things necessary for the completion of every project. Google became my bestfriend 😂</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h3 class="text-blue">My Freelance Jobs</h3>
+                            <p class="text-left text-blue">The desire to earn more drove me to start freelancing online. I signed up on different online platforms like 199jobs, onlinejobs.ph and Upwork to work on customer's needs while learning new technologies. Sometimes I got 2 or more customers at the same time, it was such a blessing for me even if it means a very tiring day and sleepless nights just to deliver the projects on time. It is just a matter of time management and self discipline to get the work done before deadline.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h3 class="text-blue">I Specialize on Point of Sales</h3>
+                            <p class="text-left text-blue">It was during the start of Covid 19 global pandemic when I created my first personal project for commercial purposes aiming to provide affordable business solutions to small business entrepreneurs. After 3 months of development, I posted it on some online platforms and started to attract some customers. It was a struggle with my first five customers because I am solving industry problems without prior experience. Little by little I gain knowledge and confidence with the help of God and the internet and got more satisfied clients.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h3 class="text-blue">My Hobbies</h3>
+                            <p class="text-left text-blue">Sometimes to relax myself, I spend my time playing basketball or table tennis with friends. I also enjoy planting vegetables on our vacant lot in the province. I joined motorcycle club where we have fun rides every sunday.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+        <?php include 'footer.php';?>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
